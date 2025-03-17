@@ -1,6 +1,6 @@
 # Single Bubble Dissolution Model
 
-This repository contains the code I developed for my master's thesis. The work was carried out as part of an experiment conducted at the Helmholtz Centre for Environmental Research in Germany which focused on quantifying the transport of gases by rising bubbles in a water column.
+This repository contains a model and a data analysis workflow I developed for my master's thesis research. The work was carried out as part of an experiment conducted at the Helmholtz Centre for Environmental Research in Germany which focused on quantifying the transport of gases by rising bubbles in a water column. The code for simulating gas exchange is contained in `bubble_tracker.py`.
 
 ## Important Notes
 
