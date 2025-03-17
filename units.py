@@ -30,6 +30,7 @@ C = units.celsius
 K = units.kelvin
 
 # pressure
+atm = units.standard_atmosphere
 Pa = units.pascal
 bar = units.bar
 millibar = units.millibar
@@ -41,7 +42,7 @@ gpcm3 = g / cm**3
 gpml = gpcm3
 
 # molar concentration
-mpl = mol/liter
+mpl = mol / liter
 mpcm3 = mol / cm3
 molpm3bar = mol / m3 / bar
 molpcm3bar = mol / cm3 / bar
