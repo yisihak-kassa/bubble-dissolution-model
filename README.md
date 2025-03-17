@@ -1,4 +1,12 @@
-The mass transfer of gas $i$ in a rising bubble is governed by the following differential equation \citep{mc}:
+# Single Bubble Dissolution Model
+
+This repository contains the code I developed for my master's thesis. The work was carried out as part of an experiment conducted at the Helmholtz Centre for Environmental Research in Germany which focused on quantifying the transport of gases by rising bubbles in a water column.
+
+## Important Notes
+
+- **Data**: Due to ownership and privacy restrictions, the actual experimental data used in the thesis is not included in this repository. However, all scripts for data manipulation, analysis, and plotting are available.
+
+The model simulates gas exchange for a moving bubble by integrating the following mass-transfer differential equation using Euler's method. For a rising bubble containing a mix of gases, the mass transfer of a gas $i$ is described by
 
 ```math
 \frac{dM_i}{dz} = -K_{Li} \left( H_i P_i - C_i \right) \frac{4\pi r^2}{v_b}
